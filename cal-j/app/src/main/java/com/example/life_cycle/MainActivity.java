@@ -14,10 +14,15 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
- Button button;
+ Button button,add,sub,mul,divide;
+ TextView tb1,tb2;
+ EditText ed1,ed2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void add(View view) {
+
     }
 
     public void sub(View view) {
